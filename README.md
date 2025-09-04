@@ -5,4 +5,5 @@ This app is a simple demo application that uses the Strava API. Upon launch, the
 To run this application: 
 1. Clone the repo
 2. Add your Strava Client key and secret to Networking > Models > NetworkValues.swift
-3. Run the app via xCode.
+3. Ensure your "Authorization Callback Domain" is set to `localhost` in the Strava Developer dashboard https://www.strava.com/settings/api
+4. Run the app via xCode.
